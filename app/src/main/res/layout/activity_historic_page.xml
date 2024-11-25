@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green"
+    tools:context=".Tanmya_bachary_page"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Green">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="336dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/almarai_light"
+                    android:paddingRight="30dp"
+                    android:text="كتب تاريخية"
+                    android:textColor="@color/white"
+                    android:textSize="44sp"
+                    android:layout_marginBottom="15dp"/>
+
+                <ImageButton
+                    android:layout_width="87dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    tools:src="@android:drawable/ic_notification_clear_all" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jihad_islamy" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kreuzzuge" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/qods"
+                    android:scaleType="centerInside" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/the_power_of_now"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rabie_araby" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tarikh_maroc"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hadara_islamya"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hadara_islamya" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tarikh_irhrik" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fragmentierung_nahen_ostens" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bidaya_nihaya" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="center"
+                    android:src="@drawable/fath_andalous" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/atlas_abasi" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/atlas_amawi" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

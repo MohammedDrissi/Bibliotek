@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green"
+    tools:context=".Tanmya_bachary_page"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Green">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="336dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/almarai_light"
+                    android:paddingRight="30dp"
+                    android:text="كتب دينية"
+                    android:textColor="@color/white"
+                    android:textSize="44sp" />
+
+                <ImageButton
+                    android:id="@+id/ausgang_button"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    tools:src="@android:drawable/ic_notification_clear_all" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_sahih_bukhari" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dini_sahih_muslim" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/how_to_win_friends"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dini_sonan_ibn_dawud" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="131dp"
+                    android:layout_height="171dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/Green"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_sonan_tarmidi" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/Green"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dini_makarim_akhlak" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_manar_tarik" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_mobacharun_bijana" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/Green"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_sona_ibn_hanbal" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_tawhid" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_tohfat_motadabir" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/Green"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_wajiz_fi_sira_nabawya" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dini_kalak_asila" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

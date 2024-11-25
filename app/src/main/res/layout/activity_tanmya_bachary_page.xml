@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green2"
+    tools:context=".Tanmya_bachary_page">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@color/Green"
+                >
+
+                <TextView
+                    android:layout_width="336dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/almarai_light"
+                    android:paddingRight="30dp"
+                    android:text="تنمية بشرية"
+                    android:textColor="@color/white"
+                    android:textSize="44sp" />
+
+                <ImageButton
+                    android:layout_width="87dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/Green"
+                    android:scaleType="centerCrop"
+                    tools:src="@android:drawable/ic_notification_clear_all" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/Green">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/black"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/act_like_a_man" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/how_to_become_amulti_skilled" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/how_to_win_friends"
+                    android:scaleType="centerInside" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/the_power_of_now"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/the_reins_of_power"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gesichter_lesen" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kunst_lernens" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/organisiere_dein_zeit" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pistazientheorie" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sprichwort_uber_erfolg" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/untebewusstseins" />
+
+                <ImageButton
+                    android:layout_width="130dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_border"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wer_isst_den_frosch" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
